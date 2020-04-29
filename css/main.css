@@ -1,27 +1,33 @@
 #container {
-    font: georgia;
-    font-size: 12px;
+    font: arial, sans serif;
+    font-size: small;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: ;
+    align-content: ;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 
 }
 
 header {
     margin: .5em;
     padding: .5em;
-    order: 1;
+}
+
+main {
+    align-self: center;
+    flex-grow: ;
 }
 
 #google-logo {
     width: 20em;
-    margin: 5%;
-    order: 2;
+    margin: 1em 1em 1em 3em;
     align-self: center;
 }
 
 #search {
-    order: 3;
     margin: 1em;
     display: flex;
     flex-direction: column;
@@ -31,7 +37,6 @@ header {
 footer {
     margin: .5em;
     padding: .5em;
-    order: 4; 
     background-color: gray;
     border-top-width: 1px;
     border-top: black;
@@ -69,7 +74,8 @@ footer {
     border-style: solid;
     border-color: gainsboro;
     padding: .75em;
-    width: 50%;
+    width: 150%;
+    align-self: center;
 }
 
 #search-input:hover {
@@ -83,8 +89,8 @@ footer {
 }
 
 .nav-li {
-    margin: 1em;
-    padding: 1em;
+    margin: .5em 1em .5em 1em;
+    padding: ;
 }
 
 .nav-button-left {
