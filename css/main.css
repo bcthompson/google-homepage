@@ -1,0 +1,46 @@
+#container {
+    font: georgia;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 35%, 30%, 35%;
+    grid-template-rows: auto, 15%, 15%, auto;
+}
+
+#google-logo {
+    width: 40%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-items: center;
+    margin: 5%;
+}
+
+#search {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#search-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+}
+
+.single-button {
+    margin: .5em;
+    padding: .5em;
+    border-color: transparent;
+    font-size: 10px;
+}
+
+#search-input {
+    margin: .5em;
+    padding: .5em;
+    color: blue;
+    
+
+}
